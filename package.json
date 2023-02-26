@@ -4,7 +4,7 @@
   "description": "This is Conference Website Developed by CSE Students",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
     "start": "node app.js",
     "build": "npm install && npm run build:client && npm run build:server",
     "build:client": "cd client && npm install && npm run build",
