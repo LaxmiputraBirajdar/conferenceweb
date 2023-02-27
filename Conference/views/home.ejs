@@ -1,0 +1,25 @@
+<%- include("partials/header") -%>
+
+<h1>Hello I am Laxmiputra</h1>
+
+<p class="p-limit"><%= homecontent.substring(0,100)+"..." %></p>
+
+  <%posts.forEach(function(post){%>
+
+    <%console.log(post.title)%>
+    <h1 ><%=post.title%></h1>
+    <p class="p-limit"><%= post.post.substring(0,100)+"..." %></p>
+
+   
+
+<%}) %>
+
+
+
+
+
+
+
+
+
+<%- include("partials/footer") -%>
